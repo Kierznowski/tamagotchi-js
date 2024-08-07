@@ -1,0 +1,19 @@
+{
+  "name": "tamagotchi",
+  "version": "1.0.0",
+  "description": "Tamagotchi emulator",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "author": "Kierznowski",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "tamagotchi": "file:"
+  }
+}
